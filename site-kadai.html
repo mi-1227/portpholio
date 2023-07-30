@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="site-kadai.css">
+</head>
+<body>
+    <div class="content_body">
+		<header>
+			<div class="header_container">
+				<div class="menu_container">
+					<img class="menu_open" src="514.png">
+					<img class="menu_close" src="514.png">
+				</div>
+			</div>
+		</header>
+		<nav class="sample_sp_menu">
+			<ul>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#work">WORK</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</nav>
+        <section>
+        <div class="hero">
+            <img src="514.png" class="icon" alt="icon">
+            <h2>-Welcome-</h2>
+            <h1>Kobayashi Ami</h1>
+            <p>portpholio</p>
+        </div>
+        <section></section>
+        <script>
+            const MenuContainer = document.querySelector('.menu_container');
+    const MenuOpen = document.querySelector('.menu_open');
+    const MenuClose = document.querySelector('.menu_close');
+
+    const SPMenu = document.querySelector('.sample_sp_menu');
+	MenuContainer.addEventListener('click', () => {
+		MenuOpen.classList.toggle('active');
+		MenuClose.classList.toggle('active');
+		SPMenu.classList.toggle('active');
+	});
+
+        </script>
+	</div>
+    <div class="about" id="about">
+        <div class="box">
+        <h2 class="subhead">About</h2>
+        <img src="" alt="">
+        <h3>Profile</h3>
+        <p>愛知工業大学情報科学部メディア情報専攻。2003年生まれ。2022年に愛知工業大学に入学する。現在は大学2年生。
+        </p>
+        <h3>Skill</h3>
+        <h4>Programing</h4>
+        <p>c,c++,c#,html,css,javascript,python</p>
+        <h4>Media</h4>
+        <p>maya,Ilastlator,Animate</p>
+    </div>
+</div>
+    <div class="work" id="work">
+        <div class="box">
+        <h2 class="subhead">Work</h2>
+        <div class="detail">
+            <div class="dis">
+        <img src="cafe.png" alt="cafe">
+        <a href="site-cafe.html"><div class="mask">
+            <div class="caption">Programing
+            </div>
+        </div>
+    </a>
+    </div>
+    <div class="dis">
+        <img src="bingo.JPEG" alt="bingo">
+        <a href="site-bingo.html"><div class="mask">
+            <div class="caption">Programing
+            </div>
+        </div>
+    </a>
+    </div>
+    <div class="dis">
+        <img src="chair.png" alt="chair">
+        <a href="site-chair.html"><div class="mask">
+            <div class="caption">3DCG
+            </div>
+        </div>
+    </a>
+    </div>
+    </div>
+    <div class="detail">
+        <div class="dis">
+            <img src="name.png" alt="name">
+            <a href="site-name.html"><div class="mask">
+                <div class="caption">Illustrator
+                </div>
+            </div>
+        </a>
+        </div>
+        <div class="dis">
+            <img src="conpe.png" alt="conpe">
+            <a href="site-conpe.html"><div class="mask">
+                <div class="caption">Illustrator
+                </div>
+            </div>
+        </a>
+        </div>
+        <div class="dis">
+            <img src="usagi.png" alt="rabbit">
+            <a href="site-rabbit.html"><div class="mask">
+                <div class="caption">Illustrator
+                </div>
+            </div>
+        </a>
+    </div>
+    </div>
+    <div class="detail">
+        <div class="dis">
+            <img src="iruka.png" alt="iruka">
+            <a href="site-iruka.html"><div class="mask">
+                <div class="caption">Animate
+                </div>
+            </div>
+        </a>
+        </div>
+        <div class="dis">
+            <img src="ice.png" alt="ice">
+            <a href="site-ice.html"><div class="mask">
+                <div class="caption">Movie
+                </div>
+            </div>
+        </a>
+        </div>
+        <div class="dis">
+            <img src="bottle.png" alt="other">
+            <a href="other.html"><div class="mask">
+                <div class="caption">other
+                </div>
+            </div>
+        </a>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="contact" id="contact">
+        <h3 class="subhead">CONTACT</h3>
+        <p>email x22038@aitech.ac.jp</p>
+    </div>
+</body>
+</html>
