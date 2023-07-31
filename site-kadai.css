@@ -56,6 +56,7 @@ body {
     border: solid 4px #ffffff;
     border-radius: 3px 0 3px 0;
     background-color: rgba(141, 251, 255, 0.7);
+    padding: 30px;
 }
 
 .box:before,.box:after
@@ -198,7 +199,9 @@ a{
 .contact{
     color: aqua;
     background-image: linear-gradient(180deg,rgba(252, 255, 133, 1) 0%,#fff 30%);
-    padding: 100px;
+    padding: 120px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .dis {
@@ -230,7 +233,8 @@ a{
 }
 
 .bikou{
-    font-size: 15px;
+    font-size: 20px;
+    margin-top: 50px;
 }
 @media (max-width: 700px){
     .detail{
