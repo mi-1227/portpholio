@@ -20,5 +20,5 @@ https://unity3d.jp/education/ait/
 作曲
 https://youtu.be/g8gi8Rg4scM
 
-動画編集（他の方の個人名が最後に記載されているため、拡散はお控えください。）
+動画編集（動画に載せる許可等はいただきましたが、他の方の個人名が最後に記載されているため、拡散はお控えください。）
 https://youtu.be/IYpMJXA-EEQ
